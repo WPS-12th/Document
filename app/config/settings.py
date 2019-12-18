@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # python manage.py shell_plus실행 위해 필요
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
