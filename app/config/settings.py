@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'one_to_one.apps.OneToOneConfig',
 
+    'inheritance.abstract.apps.AbstractConfig',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
