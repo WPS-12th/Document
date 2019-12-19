@@ -22,6 +22,9 @@ class InstagramUser(models.Model):
     def __str__(self):
         return self.name
 
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+
 
 class Relation(models.Model):
     me = models.ForeignKey(
